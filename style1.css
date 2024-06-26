@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;  
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+nav .logo{
+    width: 180px;
+    cursor: pointer;
+    margin-left: 14%;
+    
+}
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li {
+    display: inline-block ;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #040404;
+    font-weight: bold;
+    font-size: 20px;
+}
+.bm{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(#06586094,#268b9494), url(banner_02.jpg);
+     background-size: cover;
+     background-position: center;
+     padding: 10px 8%;
+}
+.bmcontent{
+    margin-top: 14%;
+    color: #fff;
+    max-width: 720px;
+    margin-left: 10%;
+}
+.bmcontent p{
+    font-size: 25px;
+}
+.bmcontent h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: skyblue;
+}
+
+.bmcontent h1{
+    font-size: 75px;
+    font-weight: 750;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+.bm .leftarrow{
+  align-items: center;
+  padding: 5px 10px; 
+  border: 0;
+  outline: 0;
+  background: #2c045d;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  float: left;
+}
+.bm .rightarrow{
+  align-items: center;
+  padding: 5px 10px;
+  background: #2c045d;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  float:right;
+}
+#btn1 {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px; 
+    border: 0;
+    outline: 0;
+    background: #2c045d;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px; /* add this to match the border radius of #btn1 */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* add this to match the box shadow of #btn1 */
+  }
+
+
+.about {
+    overflow: auto; /* add this to clear the float */
+    opacity: 1.2;
+}
+
+.abt {
+    width: 600px;
+    height: 600px;
+    float: left;
+    margin: 5% 4% 5% 8%; /* add some margin around the image */
+}
+
+.about-text {
+    width: 35%;
+    margin-top: 5%;
+    margin-left: 100px; /* adjust the margin to match the width of the image */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px; /* add some gap between elements */
+  }
+  .about-text h1{
+    font-size: 55px;
+    font-weight: 650;
+    line-height: 85px;
+    margin-bottom: 10px;
+    color: rgb(5, 5, 72);
+  }
+  .about-text p{
+    font-size: 25px;
+    font-weight: 60;
+    line-height: 45px;
+    margin-bottom: 20px;
+    color: rgba(5, 5, 72, 0.489);
+  }
+  .about-text h2{
+    font-size: 35px;
+    font-weight: 60;
+    line-height: 45px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  #more {
+    display: flex;
+    margin-bottom: 90px;
+    align-items: center;
+    padding: 10px 40px; 
+    background: #2c045d;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px; /* add this to match the border radius of #btn1 */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* add this to match the box shadow of #btn1 */
+  }
+  .div1{
+    background-image: linear-gradient(rgba(52, 19, 70, 0.579),rgba(52, 19, 70, 0.579)), url(food_03.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .div2{
+    background-image: linear-gradient(rgba(52, 19, 70, 0.579),rgba(52, 19, 70, 0.579)), url(building-material_03.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .div3{
+    background-image: linear-gradient(rgba(52, 19, 70, 0.579),rgba(52, 19, 70, 0.579)), url(import_03.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .div4{
+    background-image: linear-gradient(rgba(52, 19, 70, 0.579),rgba(52, 19, 70, 0.579)), url(contract_03.jpg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .services{
+    justify-content: space-between;
+    display: flexbox;
+    text-align: center;
+  }
+  .services-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  
+  .div1, .div2, .div3, .div4 {
+    flex-basis: 30%; /* adjust the value to your liking */
+    margin: 20px 30px; /* adjust the value to your liking */
+    text-align: center;
+    padding: 50px 50px;
+    
+  }
+
+  .services h2{
+    color: white;
+    font-size: 40px;
+    padding: 10px 0;
+  }
+  .services h1{
+    font-size: 45px;
+    font-weight: 550;
+    line-height: 65px;
+    margin-bottom: 15px;
+    color: rgb(5, 5, 72);
+    margin: 0 34%;
+  }
+  .services h3{
+    font-size: 25px;
+    margin-top: 5%;
+  }
+.client {
+  margin: 40px 0;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+  background-color: #2c045d;
+  text-align: center;
+  color: #fff;
+  display: flex; /* add this to make it a flex container */
+  flex-wrap: wrap; /* add this to allow wrapping */
+}
+
+.div11, .div12, .div13, .div14, .div15, .div16 {
+  flex-basis: 16%; /* adjust the value to fit 6 items in a row */
+  margin: 70px 0;
+  text-align: center;
+  display: inline-block; /* change from display: inline to display: inline-block */
+  width: 16%;
+  padding: 20px 20px;
+}
+  
+  .client h3{
+    font-size: 35px;
+    font-weight: 100;
+    padding: 30px 0;
+    padding-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .client h1{
+    font-size: 45px;
+    font-weight: 550;
+    line-height: 65px;
+    margin: 0 25%;
+  }
+  .mail form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 24%;
+  }
+  .mail form input{
+    border: 1px;
+    width: 50%;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-top: 14%;
+    font-weight: 60;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px; /* add this to match the border radius of #btn1 */
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 14%;
+    padding-left: 80px;
+    background-image: url(message.png);
+    background-size: auto;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    opacity: .7;
+  }
+   .btn{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px; 
+    background: #2c045d;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 5px; /* add this to match the border radius of #btn1 */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.last{
+    margin-top: 40px;
+   
+    display: flex;
+    background-color: rgba(173, 216, 230, 0.604);
+    padding: 8% 8%;
+    width: 100%;
+    justify-content: center;
+}
+div{
+    line-height: 45px;
+    justify-content: space-between;
+    color: #040404;
+    padding: 0 20px;
+}
+div ul li{
+    list-style-type: none;
+}
+div h2{
+    font-size: 25px;
+    font-weight: 200;
+}
+div .fb, .tw, .insta{
+    padding: 10px;
+    float: left;
+}
+.d1{
+    background-color: rgba(173, 216, 230, 0.604);
+    justify-content: center;
+    text-align: center;
+}
+.d1 p{
+    padding: 20px 0;
+    font-size: 25px;
+}
